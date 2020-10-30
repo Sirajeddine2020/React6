@@ -1,0 +1,203 @@
+.Adding {
+
+    border-radius: 25px;
+
+    background-color: #1a8611;
+
+    border: transparent;
+
+    color: rgb(247, 202, 235);
+
+    font-size: 28px;
+
+    padding: 7px 22px;
+
+    margin: 29px 0 29px 22px;
+
+    cursor: pointer;
+
+    width: 200px;
+
+    height: 200px;
+
+    box-shadow: -11px 12px 1.2px rgba(0, 0, 0, 0.3);
+
+  }
+
+  .Adding:focus {
+
+    outline: 0;
+
+  }
+
+ 
+
+  .Heading {
+
+    color: crimson;
+    margin-top: 8px;
+    margin-left: 8px;
+    background-color: darkcyan;
+    height: 100px;
+    width: 200px;
+
+  }
+
+  .Cont {
+
+    position: relative;
+
+    top: 10%;
+
+    left: 35%;
+
+    padding: 20px;
+    height:400px;
+    width: 400px;
+
+
+    text-align: center;
+
+    border: 1px solid #1e1b26;
+
+    border-radius: 5px;
+
+    background-color: turquoise;
+
+  }
+
+  form h2 {
+
+    text-decoration: underline;
+    text-shadow: thistle;
+
+  }
+
+  form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: center;
+
+  }
+
+  form input {
+
+    width: 98%;
+
+    height: 30px;
+
+    border-radius: 5px;
+
+    border: 1px solid lightgray;
+
+    color: grey;
+
+    padding-left: 10px;
+
+    margin-top: 10px;
+
+  }
+
+  form label {
+
+    margin-top: 20px;
+
+  }
+
+  form input:focus {
+
+    outline: 0;
+
+  }
+
+  form textarea{
+
+    border-radius: 5px;
+
+    border: 1px solid lightgray;
+
+    color: blue;
+
+    padding: 12px;
+
+    margin-top: 15px;
+    margin-bottom: 8px;
+
+    width: 280 px;
+
+  }
+
+  form textarea:focus {
+
+    outline: 0;
+
+  }
+
+  .Submitting {
+
+    border-radius: 5px;
+
+    background-color: #e4f0c4;
+
+    border: transparent;
+
+    color: rgb(238, 151, 151);
+
+    padding: 8px 20px;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 10px;
+
+  }
+
+  .Submitting :hover {
+
+    background-color: blueviolet;
+
+  }
+
+  .Submitting :focus {
+
+    outline: 0;
+
+  }
+
+  .Closing {
+
+    border-radius: 5px;
+
+    background-color: #47e95d;
+
+    border: transparent;
+
+    color: rgb(220, 241, 24);
+
+    padding: 8px 20px;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 10px;
+
+  }
+
+  .Closing:hover {
+
+    background-color: pink;
+
+  }
+
+  .Closing:focus {
+
+    outline: 0;
+
+  }

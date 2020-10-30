@@ -1,0 +1,480 @@
+body {  
+
+    background:linear-gradient(
+
+       red, 
+
+        white);
+
+    background-position: center;
+
+    background-size: cover;
+
+    background-repeat: repeat;
+
+  }
+
+  
+
+  h1,
+
+  h2,
+
+  h3,
+
+  h4,
+
+  h5 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    color: yellowgreen;
+
+    margin: 0px;
+
+  }
+
+  
+
+  h2 {
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+  }
+
+  
+
+  h3 {
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+    color: #fe4141;
+
+  }
+
+  
+
+  h5 {
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: #258341;
+
+
+
+  }
+
+  .Frame {
+
+    width: 400px;
+
+    height: 600px;
+
+    background-color: rgb(157, 247, 238);
+
+    margin: 70px auto 0 auto;
+
+    border-radius: 28px;
+
+    transform: scale(0.95);
+
+    transition: all 0.5s;
+
+  }
+
+  .container:hover {
+
+    transform: scale(1);
+
+    box-shadow: 0 5px 10px -12.125px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .film_rating {
+
+    position: absolute;
+
+    right: 12px;
+
+    top: 6px;
+
+    z-index: 999;
+
+  }
+
+  img{
+
+    width: 250px;
+
+    height: 350px;
+
+  }
+
+  .pic {
+
+    background-position: center;
+
+    border-top-left-radius: 28px;
+
+    border-top-right-radius: 28px;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    z-index: 111 !important;
+    
+
+    mask-image: none;
+
+    -webkit-mask-image: -webkit-gradient(
+
+      linear,
+
+      left top,
+
+      left bottom,
+
+      color-stop(0, rgba(0, 0, 0, 1)),
+
+      color-stop(0.35, rgba(3, 10, 10, 11)),
+
+      color-stop(0.5, rgb(39, 38, 38)),
+
+      color-stop(0.65, rgb(77, 2, 2)),
+
+      color-stop(0.85, rgba(0, 0, 0, 0.6)),
+
+      color-stop(1, rgba(0, 0, 0, 0))
+
+    );
+
+    position: relative;
+
+  }
+
+  .movie {
+
+    
+
+    background: -moz-linear-gradient(
+
+      top,
+
+      rgba(255, 255, 255, 0) 41%,
+
+      rgba(209, 253, 127, 0.06) 42%,
+
+      rgba(71, 57, 112, 0.88) 55%,
+
+      rgba(30, 27, 38, 1) 65%
+
+    );
+
+    background: -webkit-linear-gradient(
+
+      top,
+
+      rgba(255, 255, 255, 0) 38%,
+
+      rgba(255, 255, 255, 0.06) 39%,
+
+      rgba(30, 27, 38, 0.88) 53%,
+
+      rgba(30, 27, 38, 1) 55%
+
+    ); 
+
+    background: linear-gradient(
+
+      to bottom,
+
+      rgba(255, 255, 255, 0) 38%,
+
+      rgba(255, 255, 255, 0.06) 39%,
+
+      rgba(30, 27, 38, 0.88) 53%,
+
+      rgba(30, 27, 38, 1) 55%
+
+    ); 
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#1e1b26',GradientType=0 ); /* IE6-9 */
+
+   
+
+    box-shadow: -11px 11px 1px rgba(65, 64, 64, 0.3);
+
+    position: absolute;
+
+    background-size: contain;
+
+    background-size: cover;
+
+    z-index: 1 !important;
+
+    width: 400px;
+
+    height: 600px;
+
+    display: block;
+
+    border-radius: 25px;
+
+  }
+
+  .film_rating {
+    color: gold;
+    background-color: gray;
+    
+  }
+
+  .text-movie-cont {
+
+    padding: 0px 14px;
+
+    text-align: justify;
+
+  }
+
+  .rating {
+
+    color: green;
+
+    font-size: 20px;
+
+  }
+
+  .watch_btn {
+
+    display: block;
+
+    border: 1px solid #6dadd8;
+
+    border-radius: 4px;
+
+    padding: 3px;
+
+    width: 110px;
+
+    cursor: pointer;
+
+  }
+
+  .watch_btn:hover{
+
+    background-color: #be2390;
+
+  
+
+  }
+
+  .watch_btn:hover h3{
+
+    color: #45f145;
+
+  }
+
+  .action_row {
+
+    margin-top: 18px;
+
+  }
+
+  
+
+  .info_row {
+
+    margin-top: 12px;
+
+  }
+
+  
+
+
+  
+
+  .movie_gen  {
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 14px;
+
+    color: purple ;
+
+    width: auto;
+
+    display: block;
+
+    background:linear-gradient(
+      
+
+       rgb(115, 190, 115), 
+
+        white);
+    padding: 2px;
+
+    margin-right: 10px;
+    margin-left: 5px;
+    font-weight: 800;
+
+  }
+
+  .info_row a {
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 13px;
+
+    font-weight: 330;
+
+    color: white;
+
+    text-align: justify;
+
+    line-height: 2.4;
+
+  }
+
+.info_row a:link {color:green; background-color:transparent; text-decoration:none}
+.info_row a:visited {color:pink; background-color:transparent; text-decoration:none}
+.info_row a:hover {color:red; background-color:transparent; text-decoration:underline}
+.info_row a:active {color:yellow; background-color:transparent; text-decoration:underline}
+ 
+
+  .mr_grid {
+
+    width: 100%;
+
+  }
+
+  .mr_grid:before,
+
+  .mr_grid:after {
+
+    content: '';
+
+    display: table;
+
+  }
+
+  .mr_grid:after {
+
+    clear: both;
+
+  }
+
+  .mr_grid {
+
+    *zoom: 1;
+
+  }
+
+  
+
+  .col1,
+
+  .col2,
+
+  .col3,
+
+  .col3rest,
+
+  .col4,
+
+  .col4rest,
+
+  .col5,
+
+  .col5rest,
+
+  .col6,
+
+  .col6rest {
+
+    margin: 0% 0.5% 0.5% 0.5%;
+
+    padding: 2px;
+
+    float: right;
+
+    display: block;
+
+  }
+
+  
+
+
+
+  
+
+  .col1 {
+
+    width: 97%;
+
+  }
+
+  .col2 {
+
+    width: 48%;
+
+  }
+
+  .col3 {
+
+    width: 30%;
+
+  }
+
+  .col4 {
+
+    width: 20%;
+
+  }
+
+  .col5 {
+
+    width: 18%;
+
+  }
+
+  .col6 {
+
+    width: 14%;
+
+  }
+
+  
+
+
+  
+
+  .col3rest {
+
+    width: 64%;
+
+  }
+
+  .col4rest {
+
+    width: 70%;
+
+  }
+
+  .col5rest {
+
+    width: 80%;
+
+  }
+
+  .col6rest {
+
+    width: 75%;
+
+  }
