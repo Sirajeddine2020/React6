@@ -1,0 +1,98 @@
+.descript_body {  
+
+    background:linear-gradient(
+
+    rgb(206, 206, 139) 
+      rgb(180, 197, 182))
+         !important;
+
+    background-position: center;
+
+    background-size: cover;
+
+    
+
+  }
+
+  
+
+.descript_h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+
+    color: blueviolet  ;
+
+    margin: 0px;
+
+    font-size: 30px  ;
+
+    font-weight: 400  ;
+  }
+
+  
+
+  
+
+  
+
+  .descript_h2 {
+    font-family: 'Times New Roman', Times, serif  ;
+
+    color: rgb(45, 6, 82)  ;
+
+    margin: 0px  ;
+
+    font-size: 25px  ;
+
+    font-weight: 370  ;
+
+  }
+
+  
+
+  .descript_a {
+
+    font-family: 'Times New Roman', Times, serif  ;
+
+    
+
+    margin: 10px  ;
+
+    font-size: 22px  ;
+
+    font-weight: 340  ;
+
+    font-size: 20px  ;
+
+    color: #9c0a0a  ;
+
+  }
+
+  .descript_h4 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+
+    color: rgb(65, 65, 247)  ;
+
+    margin: 10px  ;
+
+    font-size: 22px  ;
+
+    font-weight: 320  ;
+
+  } 
+
+  .descript_h5 {
+
+    font-family: Georgia, 'Times New Roman', Times, serif  ;
+
+    font-size: 50px  ;
+
+    font-weight: 800  ;
+
+    color: rgb(8, 26, 8)  ;
+
+    margin: 8px  ;
+
+
+
+  }

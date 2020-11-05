@@ -1,67 +1,61 @@
 import React, { useState } from "react";
+import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
-import "./App.css";
+import logo from './logo.svg';
+import Description from "./components/Description";
+import Home from "./components/Home";
 
-import Add from "./components/Add";
-
-import List from "./components/List";
-
-import Search from "./components/Search";
 
 import { Filmotheque } from "./components/Filmotheque";
+import "./App.css";
+
+  
 
 
 
 function App() {
 
   const [movies, setMovies] = useState(Filmotheque);
-
-  const [searchInput, setSearchInput] = useState("");
-
-  const [searchRate, setSearchRate] = useState(0);
-
-
-
+  
   const add = (x) => setMovies([...movies, x]);
-
-
-
   return (
-
+    <Router>
     <div className="App">
 
-      <Search
+      <header className="App-header" >
+        <img src={logo} className="App-logo" alt="logo"  />
+        <h1 className="App-title">Welcome to React Router checkpoint by Sirajeddine</h1>
+      </header>
+      <nav className="navbar navbar-light">
 
-        setSearchInput={setSearchInput}
+     
+        <ul className="nav navbar-nav">
+                    
+            <li>
+        <Link to="/">Home</Link>
+        
+        
+   
+          </li>
+          
+          
+        </ul>
+        </nav>
 
-        searchRate={searchRate}
-
-        setSearchRate={setSearchRate}
-
-      />
+      <Switch>
+        <Route exact path="/" render={() => <Home movies={movies}  add={add}/>} />
+       
+        <Route exact path="/Description/:name" render={(props) => <Description movies={movies} {...props}  />} />
+       
+        </Switch>
       
-      <List
-
-        movies={movies.filter(
-
-          (el) =>
-
-            el.rating >= searchRate &&
-
-            el.name.toUpperCase().includes(searchInput.toUpperCase().trim())
-
-        )}
-      
-      />
-      <Add add={add} />
      
 
     </div>
-
+    </Router>
   );
 
-}
 
-
-
+        }
+        
 export default App;

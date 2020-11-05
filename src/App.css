@@ -7,8 +7,34 @@
 
   }
 
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu ul {
+    background-color: rgb(123, 98, 151);
+    margin: 0;
+  }
+  
+  .menu li {
+    font-family: sans-serif;
+    font-size: 1.25em;
+    line-height: 45px;
+    height: 45px;
+    border-bottom: 1px solid #888;
+  }
+   
+  .menu a {
+    text-decoration: none;
+    color: rgb(80, 42, 11);
+    display: block;
+  }
+  
 .App {
   text-align: center;
+  height: 100px ;
+  -webkit-background-composite: border;
 }
 
 .films {
@@ -28,14 +54,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgb(148, 180, 176);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  height: 200px;
 }
 
 .App-link {

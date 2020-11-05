@@ -1,10 +1,13 @@
 import React from "react";
 
 import Card from "./Card";
+ import { Link } from "react-router-dom";
+
 
 
 
 const List = ({ movies }) => {
+
 
   return (
 
@@ -24,9 +27,14 @@ const List = ({ movies }) => {
     >
 
       {movies.map((movie, i) => (
-
-        <Card movie={movie} key={i}/>
-
+         <div>
+           <button >
+            <Card movie={movie} key={i}  />
+            <h3><Link to={`/Description/${movie.name}`}>Description of {movie.name} </Link></h3> 
+            </button>
+      
+        </div>
+            
       ))}
 
     </section>

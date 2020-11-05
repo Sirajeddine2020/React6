@@ -15,7 +15,8 @@ export const Filmotheque = [
       description:
 
         'https://en.wikipedia.org/wiki/It_Chapter_Two',
-
+      
+      trailer : 'https://www.youtube.com/watch?v=zqUopiAYdRg'
     },
 
     {
@@ -33,7 +34,10 @@ export const Filmotheque = [
         description:
   
           'https://en.wikipedia.org/wiki/The_Trial_of_the_Chicago_7',
-  
+        
+        trailer : 'https://www.youtube.com/watch?v=FVb6EdKDBfU'
+
+        
       },
 
       {
@@ -51,6 +55,8 @@ export const Filmotheque = [
         description:
   
           'https://en.wikipedia.org/wiki/The_Rental',
+
+        trailer : 'https://www.youtube.com/watch?v=MGdcTUMGxB0'  
   
       },
       {
@@ -68,7 +74,8 @@ export const Filmotheque = [
         description:
   
           'https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(1978_film)',
-  
+
+        trailer : 'https://www.youtube.com/watch?v=qnIhJwhBeqY'
       },
       {
 
@@ -85,6 +92,8 @@ export const Filmotheque = [
         description:
   
           'https://fr.wikipedia.org/wiki/Matrix_Reloaded',
+
+        trailer : 'https://www.youtube.com/watch?v=bS5YwEW73Z4'  
   
       },
       {
@@ -102,6 +111,8 @@ export const Filmotheque = [
         description:
   
           'https://fr.wikipedia.org/wiki/Fast_and_Furious_7',
+
+        trailer : 'https://www.youtube.com/watch?v=Skpu5HaVkOc'
   
       },
       {
@@ -119,6 +130,8 @@ export const Filmotheque = [
         description:
   
           'https://en.wikipedia.org/wiki/Titanic_(1997_film)',
+
+        trailer : 'https://www.youtube.com/watch?v=jUm88F3MEbQ' 
   
       },
             

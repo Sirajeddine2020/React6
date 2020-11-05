@@ -3,17 +3,23 @@ import React from "react";
 import Rate from "./Rate";
 
 import "./Card.css";
+// import Description from "./Description";
+
+//  import { Link, Route } from "react-router-dom";
+
+
 
 
 
 const Card = ({ movie }) => {
 
   return (
-
+   
     <section className="Frame">
 
       <div className="movie">
 
+       
         <h2 className="film_rating">
 
          rate: 
@@ -31,47 +37,56 @@ const Card = ({ movie }) => {
 
         <div className="text_movie_cont">
 
-          <div className="mr_grid">
+<div className="mr_grid">
 
-            <div className="col1">
+  <div className="col1">
 
-              <h2>{movie.name}</h2>
-              <br></br>
+    <h2>{movie.name}</h2>
+    <br></br>
 
-              <p className="movie_gen">{movie.date}</p>
+    <p className="movie_gen">{movie.date}</p>
 
-            </div>
+  </div>
 
-          </div>
+</div>
 
-          <div className="mr_grid info_row">
+<div className="mr_grid info_row">
 
-            <h5>details</h5>
+  <h5>details</h5>
 
-            <a href={movie.description}>{movie.description}</a>
+  <a href={movie.description}>{movie.description}</a>
 
-          </div>
+</div>
 
-          <div className="mr_grid action_row">
+<div className="mr_grid action_row">
 
-            <div className="col2">
+  <div className="col2">
+  
+    <button className="watch_btn" onClick={(e) => {
+      e.preventDefault();
+      window.location.href=`${movie.trailer}`;
+      }}>
 
-              <div className="watch_btn">
+      <h3>Watch <br></br> trailer</h3>
 
-                <h3>Watch <br></br> trailer</h3>
+    </button>
+  
 
-              </div>
+  </div>
 
-            </div>
+</div>
+ </div>
 
-          </div>
+           
+
+          
 
         </div>
 
-      </div>
+      
 
     </section>
-
+    
   );
 
 };
